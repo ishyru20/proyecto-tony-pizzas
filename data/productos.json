@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "nombre": "Pizza Muzzarella Clásica",
+      "precio": 17500,
+      "imagen": "./img/pizza-muzza-con-albahaca-1.jpeg"
+    },
+    {
+      "id": 2,
+      "nombre": "Pizza peperoni",
+      "precio": 25000,
+      "imagen": "./img/pizza-de-peperoni.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Pizza Jamon y Morron",
+      "precio": 22300,
+      "imagen": "./img/pizza-jamon-especial-2.jpeg"
+    },
+    {
+      "id": 4,
+      "nombre": "Pizza Tony especial",
+      "precio": 19999,
+      "imagen": "./img/especial.jpeg"
+    },
+    {
+      "id": 5,
+      "nombre": "Cerveza brahma",
+      "precio": 4000,
+      "imagen": "./img/cerveza-brahama.jpeg"
+    },
+    {
+      "id": 6,
+      "nombre": "Gaseosa CocaCola 500ml",
+      "precio": 3000,
+      "imagen": "./img/coca-500ml.jpeg"
+    },
+    {
+      "id": 7,
+      "nombre": "chocotorta",
+      "precio": 4000,
+      "imagen": "./img/chocotorta.webp"
+    },
+    {
+    "id": 8,
+      "nombre": "tiramisu",
+      "precio": 4000,
+      "imagen": "./img/tiramisu.avif"
+    },
+     {
+    "id": 9,
+      "nombre": "flan",
+      "precio": 2500,
+      "imagen": "./img/flan.jpeg"
+    }
+  ]

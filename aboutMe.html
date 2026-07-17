@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <!-- Enlace app.js SOLO para que funcione el contador del carrito -->
+  <script src="/js/app.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Librería de Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+ <header>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm" style="background-color: #c0392b;">
+    <div class="container">
+
+      <!-- Logo -->
+      <a class="navbar-brand fw-bold fs-3" href="index.html">
+        <i class="bi bi-shop text-warning"></i> TONY' PIZZAS
+      </a>
+
+      <!-- Botón responsive -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menú -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav me-auto fs-5">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio / Menú</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="aboutMe.html">About Me</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+
+        <!-- Carrito -->
+        <a href="carrito.html"
+          class="btn btn-warning position-relative fw-bold text-dark px-4">
+
+          <i class="bi bi-cart-fill"></i> Mi Carrito
+
+          <span id="contador-carrito"
+            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+            0
+          </span>
+
+        </a>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="main container mt-5 pt-4">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4">
+        <h1 class="fw-bold" style="color: #c0392b;">Nuestra Historia</h1>
+        <p class="fs-5">Todo empezó en 2026, cuando Tony decidió traer el verdadero sabor de Italia a nuestro barrio. Lo que comenzó como un pequeño horno de barro en el patio, hoy es la pizzería más elegida por los vecinos.</p>
+        <p class="fs-5">Nuestro secreto no es un secreto: masa madre de 48 horas de fermentación, tomates frescos perita y la mejor muzzarella del país. No hacemos comida rápida, hacemos comida buena lo más rápido posible.</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop" alt="Horno de pizza" class="img-fluid rounded shadow-lg">
+      </div>
+    </div>
+  </main>
+  <footer class="footer text-center text-white p-4 mt-5 shadow-lg" style="background-color: #2c3e50;">
+    <div class="container">
+      <h4 class="fw-bold">TONY'PIZZAS</h4>
+      <p class="mb-1">Las mejores pizzas de CABA, directo a tu mesa.</p>
+      <small>© 2026 Tony. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

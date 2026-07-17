@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+    html,
+body{
+    height:100%;
+}
+
+}
+.img-menu {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Un fondo gris muy clarito para resaltar las tarjetas */
+body {
+    display:flex;
+    flex-direction:column;
+    padding-top: 90px; 
+    background-color: #e2e5e8;
+}
+
+/* Para que el footer se quede siempre abajo si hay poco contenido */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    flex: 1 0 auto;
+}
+.footer {
+    flex-shrink: 0;
+}
+
+.menu{
+    padding:40px 0;
+}
