@@ -18,7 +18,7 @@ const cargarProductos = async () => {
 
     try {
         // Hacemos la petición (fetch) al archivo JSON y esperamos la respuesta
-        const respuesta = await fetch("./data/productos.json");
+        const respuesta = await fetch("data/productos.json");
 
         if (!respuesta.ok) {
             throw new Error("No se pudieron cargar los productos.");
